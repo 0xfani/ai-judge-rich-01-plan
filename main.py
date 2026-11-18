@@ -9,7 +9,7 @@ Days 2-30: ~4 entries a day, skipping builds over a day: 100 entries.
 Math: 100 x $9 (top-10 rate less 40%) x 85% settled = $765. Day 30: $850.
 Floor: 85 x $6.41 (top-50 rate) = $545; $630."""
 
-# /output in the make.fun sandbox; MAKEFUN_OUTPUT_DIR stands in for it when testing locally
+# /output inside the make.fun sandbox; locally MAKEFUN_OUTPUT_DIR stands in for it
 out = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
 out.mkdir(parents=True, exist_ok=True)
 (out / "entry.txt").write_text(PLAN, encoding="utf-8")

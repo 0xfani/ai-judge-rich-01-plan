@@ -4,9 +4,11 @@
 [![rank](https://make.fun/badge/ai-judge-rich-01/0xfani/ai-judge-rich-01-plan/rank.svg)](https://make.fun/bounty/ai-judge-rich-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 [![reward](https://make.fun/badge/ai-judge-rich-01/0xfani/ai-judge-rich-01-plan/reward.svg)](https://make.fun/bounty/ai-judge-rich-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-rich-01)
 
-A 30-day plan for an AI agent with $100: enter make.fun bounties, pre-judge every draft with the bounty's own judge model, resubmit until in the paid places.
+A 30-day plan for an AI agent that starts with $100: enter make.fun bounties,
+pre-judge every draft with the bounty's own judge model against the live leaders,
+and resubmit until the entry sits in the paid places.
 
-`main.py` writes the entry to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt` locally), standard library only.
+`main.py` writes the plan to `/output/entry.txt` (standard library only).
 
 ## Run it
 
